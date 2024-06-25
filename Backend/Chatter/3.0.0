@@ -1,0 +1,5 @@
+Requirement already satisfied: channels in c:\career\projects\4_chatter\backend\myworld\lib\site-packages (4.0.0)
+Requirement already satisfied: Django>=3.2 in c:\career\projects\4_chatter\backend\myworld\lib\site-packages (from channels) (4.2.1)
+Requirement already satisfied: asgiref<4,>=3.5.0 in c:\career\projects\4_chatter\backend\myworld\lib\site-packages (from channels) (3.6.0)
+Requirement already satisfied: sqlparse>=0.3.1 in c:\career\projects\4_chatter\backend\myworld\lib\site-packages (from Django>=3.2->channels) (0.4.4)
+Requirement already satisfied: tzdata in c:\career\projects\4_chatter\backend\myworld\lib\site-packages (from Django>=3.2->channels) (2023.3)
