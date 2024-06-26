@@ -14,7 +14,7 @@ SocialMediaApp is a unique social media web application built using ReactJS for 
 * Post Rating and Feedback: Rate posts and leave detailed feedback, enhancing interaction and content quality
 * Responsive Design: Mobile-friendly and works seamlessly on various devices.
 
-  ## 🛠️ Technologies Used
+## 🛠️ Technologies Used
 * Frontend: HTML5, TailwindCSS, React.js, Framer-motion(animation) 
 * Backend: Django, Django REST Framework, Django Channels (for WebSocket support), Django Debug Toolbar, MySQL client
 * Database: MySQL
