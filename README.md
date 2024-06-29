@@ -9,6 +9,7 @@ SocialMediaApp is a unique social media web application built using ReactJS for 
 * Real-Time Messaging: Instant messaging feature to chat with other users.
 * Profile Customization: Customize your profile with animal avatars and bios.
 * Privacy Settings: Control who can see your posts and send you messages.
+* Post Privacy Control: Set visibility options for individual posts (public, friends-only, private).
 * Search Functionality: Find users and content quickly.
 * Media Uploads: Share text, images, videos, audio and more with your posts.
 * Post Rating and Feedback: Rate posts and leave detailed feedback, enhancing interaction and content quality
