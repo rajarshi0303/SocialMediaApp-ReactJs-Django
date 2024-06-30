@@ -3,6 +3,7 @@ SocialMediaApp is a unique social media web application built using ReactJS for 
 
 ## ✨ Features
 * User Authentication: Sign up, log in, and manage your profile securely.
+* Google API integration for quick authentication
 * Post Creation: Users can create, edit, and delete posts.
 * Interactivity: Users can Comment, rate, and share posts.
 * Anonymous Posting: Users can post content anonymously using animal avatars.
@@ -16,7 +17,7 @@ SocialMediaApp is a unique social media web application built using ReactJS for 
 * Responsive Design: Mobile-friendly and works seamlessly on various devices.
 
 ## 🛠️ Technologies Used
-* Frontend: HTML5, TailwindCSS, React.js, Framer-motion(animation) 
+* Frontend: HTML5, TailwindCSS, React.js, Axios, Framer-motion(animation), React-Router, Google Authentication
 * Backend: Django, Django REST Framework, Django Channels (for WebSocket support), Django Debug Toolbar, MySQL client
 * Database: MySQL
 * APIs: REST API with Django REST Framework
@@ -40,6 +41,18 @@ cd SocialMediaApp-ReactJs-Django
 ```shell
 cd Frontend
 npm install
+```
+Obtain an API key from Google OAuth and add it to main.jsx file:
+```shell
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <GoogleOAuthProvider clientId=your_api_key_here>
+    <React.StrictMode>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </React.StrictMode>
+  </GoogleOAuthProvider>
+);
 ```
 Start the React development server:
 ```shell
